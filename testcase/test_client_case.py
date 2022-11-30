@@ -106,5 +106,3 @@ class TestClient():
         api.client_save_client(cno)
         res = api.client_delete_rows(cno)
         assert res=="删除成功","顾客信息删除失败"
-if __name__ == '__main__':
-    pytest.main(["-vs","./test_client_case.py::TestClient"])
