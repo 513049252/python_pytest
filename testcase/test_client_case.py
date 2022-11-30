@@ -4,6 +4,7 @@ from link_mysql import LinkMysql
 linkmysql=LinkMysql()
 # 实例化对象,json
 api = Api()
+
 class TestClient():
     # 正常浏览顾客信息
     def test_correct_get_client_message(self):
