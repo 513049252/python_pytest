@@ -3,7 +3,7 @@ import pytest,json,time
 from link_mysql import LinkMysql
 linkmysql=LinkMysql()
 # 实例化对象,json
-
+# 测试代码提交成功
 api = Api()
 class TestClient():
     # 正常浏览顾客信息
